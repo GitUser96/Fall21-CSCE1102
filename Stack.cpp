@@ -21,8 +21,8 @@ char Stack::pop()
 		return '?';
 	else
 	{
-		char x = container[top];
-		top--;
+		char x = container[top--];
+		// top--;
 		return x;
 	}
 }
