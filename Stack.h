@@ -10,7 +10,7 @@ private:
 public:
 	Stack();
 	bool push(char);
-	char pop();
+	char pop(); // deleting
 	bool empty();
 	void print();
 };
