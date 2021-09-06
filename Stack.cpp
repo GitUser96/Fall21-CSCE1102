@@ -18,7 +18,7 @@ bool Stack::push(char value)
 char Stack::pop()
 {
 	if (top < 0)
-		return '?';
+		return '_';
 	else
 	{
 		char x = container[top];
