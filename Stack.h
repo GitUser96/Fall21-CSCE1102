@@ -12,5 +12,5 @@ public:
 	bool push(char);
 	char pop();
 	bool empty();
-	void print();
+	void print(); // print data
 };
